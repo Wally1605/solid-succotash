@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class Main extends JFrame {
+public class PizzaProject extends JFrame {
     public JLabel greeting;
     //Start of sizes
     public JLabel sizes;
@@ -48,7 +48,7 @@ public class Main extends JFrame {
     public double cost = 0;
 
 
-    public Main() {
+    public PizzaProject() {
 
         setTitle("Big Y");
         setSize(190, 580);
@@ -184,7 +184,7 @@ public class Main extends JFrame {
     }
         //Main function
         public static void main(String[] args) {
-            Main app = new Main();
+            PizzaProject app = new PizzaProject();
         }
 
     }
